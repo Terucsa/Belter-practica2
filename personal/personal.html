@@ -9,55 +9,167 @@
     <meta property="og:image" content="imagen.jpg">
     <meta property="og:url" content="https://mipagina.com">
     <link rel="icon" type="image/x-icon" href="../imagenes/384158.png">
+
+    <!--Estilos y bootstrap-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <meta name="description" content="Conoce el mejor restaurante de Guatemala">
+
     <title>Personal</title>
 </head>
 <body>
-    <h1>Personal</h1>
+    <nav class="navbar navbar-expand-lg navbar-personalizado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Restaurante Patito</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../personal/personal.html" >Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/platos-fuertes.html">Platos Fuertes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/postres.html">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../recetas/recetas-dulces.html">Recetas Dulces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../recetas/recetas-saladas.html">Recetas Saladas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../resenias/resenias.html">Reseñas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h2>Chefs Principales</h2>
-    <h3>Chef Juan</h3>
-    <img src="../imagenes/chef2.jpg" alt="chef" width="300" height="200">
-    <p>El Chef de <strong>Postres</strong> Juan es el artista detrás de los dulces que deleitan a nuestros comensales.
-        Especializado en
-        repostería, se encarga de diseñar y crear postres innovadores, equilibrando sabores, texturas y presentaciones
-        visuales. Supervisa la preparación de todos los postres, desde la medición de ingredientes hasta la decoración
-        final, asegurándose de que cada creación sea única y de alta calidad. Además, guía y capacita al Commis 1 para
-        mantener la consistencia en cada plato. Su creatividad y atención al detalle son clave para cerrar cada comida con
-        un toque memorable.</p>
-    <h3>Chef Pedro</h3>
-    <img src="../imagenes/chef1.jpg" alt="chef" width="300" height="200">
-    <p>El Chef de Comida Salada es el corazón de la <strong>cocina</strong> , encargado de liderar la preparación de platos
-        principales y
-        entradas. Con un enfoque en ingredientes frescos y técnicas culinarias innovadoras, diseña menús que combinan
-        tradición y modernidad. Supervisa a los Commis 2, 3 y 4, delegando tareas como la preparación de ingredientes, la
-        cocción y la presentación de los platos. Su experiencia y liderazgo garantizan que cada plato sea una experiencia
-        gastronómica única, mientras mantiene altos estándares de calidad y eficiencia en la cocina.</p>
+    <!--informacion de la pagina-->
+    <main class="container-fluid">
+        <h2 class="personal_h2">Chefs Principales</h2>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/chef2.jpg" class="img-fluid rounded-start" alt="repostero">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Chef Juan</h5>
+                            <p class="card-text personal_p" >
+                                El Chef de <strong>Postres</strong> Juan es el artista detrás de los dulces que deleitan a nuestros comensales.
+                                Especializado en
+                                repostería, se encarga de diseñar y crear postres innovadores, equilibrando sabores, texturas y presentaciones
+                                visuales. Supervisa la preparación de todos los postres, desde la medición de ingredientes hasta la decoración
+                                final, asegurándose de que cada creación sea única y de alta calidad. Además, guía y capacita al Commis 1 para
+                                mantener la consistencia en cada plato. Su creatividad y atención al detalle son clave para cerrar cada comida con
+                                un toque memorable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <h2>Commis</h2>
-    <h3>Commis Werner</h3>
-    <img src="../imagenes/commis2.jpg" alt="commis 1" width="300" height="200">
-    <p>El commis Werner es el apoyo esencial del Chef de Postres. Se encarga de tareas como medir y preparar ingredientes,
-        batir,
-        amasar y hornear bajo supervisión. También ayuda en la decoración de postres y mantiene el área de trabajo limpia y
-        organizada. Su rol es clave para asegurar que los postres sean consistentes en sabor y presentación, mientras
-        aprende técnicas avanzadas de repostería.</p>
-    <h3>Commis Maria</h3>
-    <img src="../imagenes/commis4.jpg" alt="commis 2" width="300" height="200">
-    <p>El Commis Maria es el experta en la preparación inicial de los platos. Sus tareas incluyen picar, pelar, cortar y
-        marinar
-        ingredientes, así como preparar bases para salsas y caldos. Es meticuloso y rápido, asegurando que todo esté listo
-        para que el chef de comida salada pueda cocinar sin demoras.</p>
-    <h3>Commis Sofia</h3>
-    <img src="../imagenes/commis3.jpg" alt="commis 3" width="300" height="200">
-    <p>El Commis Sofia se enfoca en la cocción de alimentos. Bajo la supervisión del chef, se encarga de tareas como asar,
-        freír, hervir y saltear. También ayuda en la preparación de guarniciones y en la presentación final de los platos.
-        Su atención al detalle garantiza que cada plato se sirva en su punto perfecto.</p>
-    <h3>Commis Carlos</h3>
-    <img src="../imagenes/commis1.jpg" alt="commis 4" width="300" height="200">
-    <p>El Commis Carlos es el organizador del equipo. Se asegura de que las estaciones de trabajo estén siempre abastecidas y
-        limpias, gestiona el flujo de utensilios y equipos, y apoya en tareas generales como la recepción de ingredientes y
-        la preparación de pedidos especiales. Su rol es clave para mantener la eficiencia en la cocina.?</p>
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/chef1.jpg" class="img-fluid rounded-start personal_imagen" alt="chef1">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Chef Pedro</h5>
+                            <p class="card-text personal_p">
+                                El Chef de Comida Salada es el corazón de la <strong>cocina</strong> , encargado de liderar la preparación de platos
+                                principales y
+                                entradas. Con un enfoque en ingredientes frescos y técnicas culinarias innovadoras, diseña menús que combinan
+                                tradición y modernidad. Supervisa a los Commis 2, 3 y 4, delegando tareas como la preparación de ingredientes, la
+                                cocción y la presentación de los platos. Su experiencia y liderazgo garantizan que cada plato sea una experiencia
+                                gastronómica única, mientras mantiene altos estándares de calidad y eficiencia en la cocina.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <p><a href="../index.html">Pagina Principal</a></p>
+        <h2 class="personal_h2">Commis</h2>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/commis2.jpg" class="img-fluid rounded-start personal_imagen" alt="repostero">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Commis Werner</h5>
+                            <p class="card-text personal_p" >
+                                El commis Werner es el apoyo esencial del Chef de Postres. Se encarga de tareas como medir y preparar ingredientes,
+                                batir,
+                                amasar y hornear bajo supervisión. También ayuda en la decoración de postres y mantiene el área de trabajo limpia y
+                                organizada. Su rol es clave para asegurar que los postres sean consistentes en sabor y presentación, mientras
+                                aprende técnicas avanzadas de repostería.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/commis4.jpg" class="img-fluid rounded-start personal_imagen" alt="commis 2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Commis Maria</h5>
+                            <p class="card-text personal_p">
+                                El Commis Maria es el experta en la preparación inicial de los platos. Sus tareas incluyen picar, pelar, cortar y
+                                marinar ingredientes, así como preparar bases para salsas y caldos. Es meticuloso y rápido, asegurando que todo esté listo
+                                para que el chef de comida salada pueda cocinar sin demoras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/commis3.jpg" class="img-fluid rounded-start personal_imagen" alt="commis 3">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Commis Sofia</h5>
+                            <p class="card-text personal_p">
+                                El Commis Sofia se enfoca en la cocción de alimentos. Bajo la supervisión del chef, se encarga de tareas como asar,
+                                freír, hervir y saltear. También ayuda en la preparación de guarniciones y en la presentación final de los platos.
+                                Su atención al detalle garantiza que cada plato se sirva en su punto perfecto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-8 p-2 m-2" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../imagenes/commis1.jpg" class="img-fluid rounded-start personal_imagen" alt="commis 4">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title personal_h5">Commis Carlos</h5>
+                            <p class="card-text personal_p">
+                                El Commis Carlos es el organizador del equipo. Se asegura de que las estaciones de trabajo estén siempre abastecidas y
+                                limpias, gestiona el flujo de utensilios y equipos, y apoya en tareas generales como la recepción de ingredientes y
+                                la preparación de pedidos especiales. Su rol es clave para mantener la eficiencia en la cocina.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

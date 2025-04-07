@@ -7,43 +7,103 @@
     <link rel="icon" type="image/x-icon" href="../imagenes/384158.png">
     <meta name="description" content="Los mejores platos fuertes de Guatemala">
     <title>Platos Fuertes</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Platos Fuertes</h1>
+    <nav class="navbar navbar-expand-lg navbar-personalizado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Restaurante Patito</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../personal/personal.html" >Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../menu/platos-fuertes.html">Platos Fuertes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/postres.html">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../recetas/recetas-dulces.html">Recetas Dulces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../recetas/recetas-saladas.html">Recetas Saladas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../resenias/resenias.html">Reseñas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h2>Filete de Res</h2>
-    <p>Un jugoso filete de res de corte premium, marinado en una reducción de vino tinto con hierbas aromáticas y ajo, asado
-        a la perfección para conservar su suavidad y sabor. Acompañado de un puré cremoso de raíces (zanahoria, betabel y
-        papa) y una guarnición de espárragos salteados al ajillo. Este plato es una combinación de elegancia y rusticidad,
-        ideal para los amantes de la carne.</p>
-    <p>Q175</p>
-    <img src="../imagenes/plato_fuerte1.jpg" alt="PlatoFuerte1" width="300" height="200">
+    <main class="container-fluid">
+        <h1>Platos Fuertes</h1>
 
-    <h2>Salmón Glaseado</h2>
-    <p>Un filete de salmón fresco, glaseado con una mezcla de miel, mostaza Dijon y jugo de limón, horneado hasta obtener
-        una textura crujiente por fuera y tierna por dentro. Servido sobre una cama de quinoa especiada con cúrcuma y
-        acompañado de vegetales asados (calabacín, pimiento y cebolla morada). Un plato ligero pero lleno de sabor, perfecto
-        para quienes buscan una opción saludable y deliciosa.</p>
-    <p>Q180</p>
-    <img src="../imagenes/Plato_fuerte4.jpg" alt="PlatoFuerte2" width="300" height="200">
+        <div class="d-flex flex-wrap justify-content-center">
 
-    <h2>Risotto de Champiñones</h2>
-    <p>Un risotto cremoso y sedoso, preparado con arroz Arborio, caldo de vegetales y una mezcla de champiñones silvestres
-        salteados (portobello, shiitake y cremini). Aromatizado con trufa negra y terminado con un toque de queso parmesano
-        y perejil fresco. Este plato es una experiencia gourmet que combina la riqueza de los sabores naturales con un toque
-        de lujo.</p>
-    <p>Q150</p>
-    <img src="../imagenes/Plato_fuerte_3.jpg" alt="PlatoFuerte3" width="300" height="200">
+            <div class="card m-2" style="width: 20rem;">
+                <img src="../imagenes/plato_fuerte1.jpg" class="card-img-top" alt="PlatoFuerte1" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">Filete de Res</h5>
+                    <p class="card-text">
+                        Un jugoso filete de res de corte premium, marinado en una reducción de vino tinto con hierbas aromáticas y ajo, asado
+                        a la perfección para conservar su suavidad y sabor. Acompañado de un puré cremoso de raíces (zanahoria, betabel y
+                        papa) y una guarnición de espárragos salteados al ajillo. Este plato es una combinación de elegancia y rusticidad,
+                        ideal para los amantes de la carne.
+                    </p>
+                    <p class="card-text">Q175</p>
+                </div>
+            </div>
 
-    <h2>Pollo con Espinacas</h2>
-    <p>Un plato fresco y lleno de sabor, ideal para quienes buscan una opción ligera pero satisfactoria. Jugosos trozos de
-        pollo a la parrilla, marinados con hierbas provenzales y un toque de limón, se combinan con espinacas frescas, queso
-        de cabra desmenuzado, nueces tostadas y arándanos secos. Todo se sirve con un aderezo casero de miel, mostaza Dijon
-        y vinagre balsámico, que aporta un equilibrio perfecto entre dulce y ácido. Una ensalada que es tan nutritiva como
-        deliciosa, perfecta para disfrutar con la vista hermosa del restaurante.</p>
-    <p>Q125</p>
-    <img src="../imagenes/Plato_fuerte_2.jpg" alt="PlatoFuerte4" width="300" height="200">
+            <div class="card m-2" style="width: 20rem;">
+                <img src="../imagenes/Plato_fuerte_4.jpg" class="card-img-top" alt="PlatoFuerte2" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">Salmón Glaseado</h5>
+                    <p class="card-text">
+                        Un filete de salmón fresco, glaseado con una mezcla de miel, mostaza Dijon y jugo de limón, horneado hasta obtener
+                        una textura crujiente por fuera y tierna por dentro. Servido sobre una cama de quinoa especiada con cúrcuma y
+                        acompañado de vegetales asados (calabacín, pimiento y cebolla morada). Un plato ligero pero lleno de sabor, perfecto
+                        para quienes buscan una opción saludable y deliciosa.
+                    </p>
+                    <p class="card-text">Q180</p>
+                </div>
+            </div>
 
-    <p><a href="../index.html">Pagina Principal</a></p>
+            <div class="card m-2" style="width: 20rem;">
+                <img src="../imagenes/Plato_fuerte_3.jpg" class="card-img-top" alt="PlatoFuerte3" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">Risotto de Champiñones</h5>
+                    <p class="card-text">
+                        Un risotto cremoso y sedoso, preparado con arroz Arborio, caldo de vegetales y una mezcla de champiñones silvestres
+                        salteados (portobello, shiitake y cremini). Aromatizado con trufa negra y terminado con un toque de queso parmesano
+                        y perejil fresco. Este plato es una experiencia gourmet que combina la riqueza de los sabores naturales con un toque
+                        de lujo.
+                    </p>
+                    <p class="card-text">Q150</p>
+                </div>
+            </div>
+
+            <div class="card m-2" style="width: 20rem;">
+                <img src="../imagenes/Plato_fuerte_2.jpg" class="card-img-top" alt="PlatoFuerte4" height="200">
+                <div class="card-body">
+                    <h5 class="card-title">Pollo con Espinacas</h5>
+                    <p class="card-text">
+                        Un plato fresco y lleno de sabor, ideal para quienes buscan una opción ligera pero satisfactoria. Jugosos trozos de
+                        pollo a la parrilla, marinados con hierbas provenzales y un toque de limón, se combinan con espinacas frescas, queso
+                        de cabra desmenuzado, nueces tostadas y arándanos secos. Todo se sirve con un aderezo casero de miel, mostaza Dijon
+                        y vinagre balsámico, que aporta un equilibrio perfecto entre dulce y ácido. Una ensalada que es tan nutritiva como
+                        deliciosa, perfecta para disfrutar con la vista hermosa del restaurante.
+                    </p>
+                    <p class="card-text">Q125</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </html>

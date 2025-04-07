@@ -1,0 +1,45 @@
+/*Cambio index header*/
+.navbar-personalizado {
+    background-color:  #c0efa0;
+}
+
+.navbar-personalizado .nav-link:hover {
+    color:  #0095db;
+}
+
+.container-xl h3 {
+    font-family: "Kanit", sans-serif;
+}
+
+.container-xl p {
+    font-family: "Assistant", sans-serif;
+    font-size: 18px;
+}
+
+.blockquote p {
+    font-family: "Kanit", sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+/*Perosnal*/
+
+.personal_h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.personal_h5 {
+    font-family: "Assistant", sans-serif;
+    font-size: 18px;
+}
+
+.personal_p {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+}
+
+.personal_imagen {
+    height: 400px !important;
+}
