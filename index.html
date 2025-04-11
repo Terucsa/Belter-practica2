@@ -12,7 +12,7 @@
 
     <!--Estilos y bootstrap-->
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta name="description" content="Conoce el mejor restaurante de Guatemala">
 
     <!--Fonts-->
@@ -27,10 +27,18 @@
     <nav class="navbar navbar-expand-lg navbar-personalizado">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Restaurante Patito</a>
+
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú colapsable -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="personal/personal.html" >Personal</a>
+                        <a class="nav-link" href="personal/personal.html">Personal</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="menu/platos-fuertes.html">Platos Fuertes</a>
@@ -39,20 +47,24 @@
                         <a class="nav-link" href="menu/postres.html">Postres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recetas/recetas-dulces.html">Recetas Dulces</a>
+                        <a class="nav-link" href="recetas/recetas-dulces.php">Recetas Dulces</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recetas/recetas-saladas.html">Recetas Saladas</a>
+                        <a class="nav-link" href="recetas/recetas-saladas.php">Recetas Saladas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="resenias/resenias.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservaciones/reservacion.php">Reservar</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main class="container-xl">
+
+<main class="container-xl">
         <blockquote cite="https://www.superprof.es/blog/citas-cocina/#:~:text=%C2%ABLa%20cocina%20es%20una%20historia,las%20personas%20que%20los%20preparan!" class="blockquote">
             <p>La gastronomía es el arte de usar los alimentos para crear felicidad</p>
         </blockquote>
@@ -99,5 +111,5 @@
     </main>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
